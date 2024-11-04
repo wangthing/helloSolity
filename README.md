@@ -12,6 +12,8 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 
+使用 Hardhat 命令部署合约到 Sepolia 网络：
+npx hardhat run scripts/deploy.js --network sepolia
 
 // 替换为你的 Counter 合约地址
 const contractAddress = "0x1234...abcd";
