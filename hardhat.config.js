@@ -10,6 +10,11 @@ module.exports = {
     sepolia: {
       url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`, // 使用Infura提供的Sepolia URL
       accounts: [`0x${SEPOLIA_PRIVATE_KEY}`]
+    },
+    op_sepolia: {
+      url: `https://optimism-mainnet.infura.io/v3/${INFURA_API_KEY}`,
+      accounts: [`0x${SEPOLIA_PRIVATE_KEY}`]
     }
   }
 };
+//0x07E503bcE214278240292433cC1cD72d85D6a13D
